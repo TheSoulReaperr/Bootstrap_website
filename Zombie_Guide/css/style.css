@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body {
+   height: 100%;
+   width: 100%;
+   font-family: 'Poppins',sans-serif;
+}
+
+.navbar {
+   padding: .8rem;
+}
+.navbar-nav li {
+   padding-right: 2rem;
+   color: white;
+}
+.nav-link {
+   font-size: 1.3em !important;
+}
+
+.carousel-inner img {
+   image-resolution: snap;
+   height: 600px;
+}
+.carousel-caption{
+   font-size: 20px;
+   position: absolute;
+   top: 20%;
+   text-shadow: 3px 3px 20px #000;
+   right: 70%;
+   transform: translateX(-80%);
+}
+
+img.img-fluid {
+   padding: 5px;
+}
+h5.display-5 {
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-shadow: 1px 1px 5px #555555;
+   background-color: white;
+   /* border-style: groove; */
+   border-left: 1px;
+   border-right: 1px;
+   border-color: black;
+}
+h3.topic {
+   padding: 10px;
+}
+p.para {
+   font-size: 16px;
+   padding: 10px;
+   padding-top: 0px;
+}
+div.padding {
+   background-color: rgba(80,80,255,0.1);
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+div#cards {
+   background-color: white;
+}
+div.card {
+   margin: 5px;
+}
+
+h2.connect {
+   padding: 30px;
+   background-color: white;
+}
+div.connects {
+   background-color: white;
+}
+.social a {
+   font-size: 4.1rem;
+   padding: 2rem;
+}
+.fa-facebook {
+   color: #3b5998;
+}
+.fa-reddit {
+   color: #FF5700;
+}
+.fa-youtube {
+   color: #bb0000;
+}
+.fa-twitter {
+   color: #00aced;
+}
+
+footer {
+   margin-top: 1rem;
+   background-color: #3F3F3F;
+   color: #d5d5d5;
+   padding-top: 2rem;
+}
+hr.light {
+   border-top: 1px solid #d5d5d5;
+   width: 75%;
+   margin-top: .8rem;
+   margin-bottom: 1rem;
+}
+footer a {
+   color: #d5d5d5;
+}
+hr.light-100 {
+   border-top: 1px solid #d5d5d5;
+   width: 75%;
+   margin-top: .8rem;
+   margin-bottom: 1rem;
+}
